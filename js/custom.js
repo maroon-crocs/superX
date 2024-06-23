@@ -564,6 +564,7 @@ function showWallRacks() {
   $(".sub-categories-wall").html(wallSubCategoryBtn);
   $("#parent").html(wallSubCategoryImg);
   control("channel");
+  scrollToSection();
 }
 
 const floorArray = [
@@ -593,7 +594,17 @@ function showFloorRacks() {
   $(".sub-categories-wall").html(floorSubCategoryBtn);
   $("#parent").html(floorSubCategoryImg);
   control2("floor-stand");
+  scrollToSection();
 }
+
+function scrollToSection() {
+  const section = document.getElementById('sub-categories-wrapper');
+  const yOffset = -200; // Adjust this value to set the desired offset from the top of the screen
+  const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+  
+  window.scrollTo({ top: y, behavior: 'smooth' });
+}
+
 
 showWallRacks();
 
