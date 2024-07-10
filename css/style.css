@@ -425,6 +425,8 @@ a:focus {
   left: 0;
 }
 
+
+
 .shop_section .heading_container {
   margin-bottom: 20px;
 }
@@ -434,14 +436,15 @@ a:focus {
   position: relative;
   padding: 10px;
   margin-top: 25px;
+}
 
-  p {
+.shop_section .box  p {
     font-size: 12px;
     font-weight: bold;
     text-align: center;
     margin-top: 10px;
   }
-}
+
 
 .shop_section .box a {
   color: #000000;
@@ -543,7 +546,7 @@ a:focus {
 }
 
 #our-student-section .view-more-bg {
-  /* background-image: url("../images/work-img-4.jpeg"); */
+  /* background-image: url("D:/SuperX Shopfits/superX/images/work-img-4.jpeg"); */
   background-size: cover;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -1133,7 +1136,7 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 .iti__flag {
-  background-image: url("../images/flags.png");
+  background-image: url("D:/SuperX Shopfits/superX/images/flags.png");
 }
 
 .category-btn {
@@ -1275,6 +1278,6 @@ body {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {
-    background-image: url("../images/flags@2x.png");
+    background-image: url("D:/SuperX Shopfits/superX/images/flags@2x.png");
   }
 }

@@ -37,6 +37,7 @@
     <title>SuperXShopfits</title>
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/intlTelInput.css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="lightbox2-2.11.3/dist/css/lightbox.min.css" />
@@ -63,30 +64,30 @@
             </button>
             <div id="myNav" class="overlay">
               <div class="overlay-content">
-                <a onclick="toggleNav()" href="#landing-section" title="Home"
+                <a onclick="toggleNav()" href="index.html" title="Home"
                   >Home</a
                 >
                 <a
                   onclick="toggleNav()"
-                  href="#shop-section"
+                  href="our-category.html"
                   title="Latest Designs"
                   >Our Category</a
                 >
                 <a
                   onclick="toggleNav()"
-                  href="#services-section"
+                  href="services.html"
                   title="Services"
                   >Services</a
                 >
-                <a onclick="toggleNav()" href="#about-section" title="About"
-                  >About</a
+                <a onclick="toggleNav()" href="about-us.html" title="About"
+                  >About Us</a
                 >
                 <!-- <a onclick="toggleNav()" href="#gallery-section" title="Gallery"
                   >Gallery</a
                 > -->
                 <a
                   onclick="toggleNav()"
-                  href="#contact-us-section"
+                  href="contact-us.html"
                   title="Contact Us"
                   >Contact Us</a
                 >
@@ -132,50 +133,133 @@
       </div>
     </section>
 
-    <section id="shop-section" class="shop_section layout_padding">
-      <div class="container-fluid row m-0">
-        <div class="col-md-4 left-cat-sticky-sec">
-          <div class="heading_container heading_center">
-            <h2>Our Categories</h2>
+    <section class="category-container" style="padding: 60px; padding-top: 10px; ">
+      <h1 class="mb-4">Our Categories</h1>
+      <div class="row d-flex flex-column flex-md-row">
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Wall Racks</h5>
+            <p class="card-text">Optimize your wall space with our versatile and durable wall racks.</p>
+            <a href="wall-racks.html" class="btn btn-primary">Explore More</a>
           </div>
-          <hr />
-          <div class="buttons category-btn-wrapper">
-            <button class="category-btn" onclick="showWallRacks()">
-              Wall Racks <span class="arrow-right">&#8594</span>
-            </button>
-            <button class="category-btn" onclick="showFloorRacks()">
-              Floor Racks <span class="arrow-right">&#8594</span>
-            </button>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Floor Racks</h5>
+            <p class="card-text">Our floor racks provide sturdy and reliable storage solutions for any space.</p>
+            <a href="floor-racks.html" class="btn btn-primary">Explore More</a>
           </div>
-        </div>
-        <div class="col-md-8 right-cat-sticky-sec">
-          <div id="sub-categories-wrapper">
-            <div class="sub-categories-wall">
-              <!-- <button class="active btn" id="all">Show All</button>
-              <button class="btn" id="a">Show A</button>
-              <button class="btn" id="b">Show B</button>
-              <button class="btn" id="c">Show C</button>
-              <button class="btn" id="d">Show D</button> -->
-            </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Electronic Display Racks</h5>
+            <p class="card-text">Showcase your electronics with sleek and modern display racks.</p>
+            <a href="electronic-display-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">File And Book Racks</h5>
+            <p class="card-text">Keep your files and books organized with our efficient storage racks.</p>
+            <a href="file-and-books-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+      </div>
 
-            <div class="spacer"></div>
-
-            <div id="parent" class="rack-images">
-              <!-- <div class="box a b">A &amp; B</div>
-              <div class="box a">A</div>
-              <div class="box b">B</div>
-              <div class="box c">C</div>
-              <div class="box d">D</div> -->
-              <!-- </div> -->
-            </div>
+      <div class="row d-flex flex-column flex-md-row mt-3">
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Footwear Display Racks</h5>
+            <p class="card-text">Display your footwear elegantly with our custom-designed racks.</p>
+            <a href="footwear-display-racks.html" class="btn btn-primary">Explore More</a>
           </div>
-
-          <div class="rack-images" id="rackImages">
-            <!-- Images will be dynamically added here -->
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Garment Display Racks</h5>
+            <p class="card-text">Highlight garments with our stylish and functional display racks.</p>
+            <a href="garment-display-racks.html" class="btn btn-primary">Explore More</a>
           </div>
-        </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Industry Storage Racks</h5>
+            <p class="card-text">Maximize storage in industrial settings with our robust storage racks.</p>
+            <a href="industry-storage-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Medical Shop Racks</h5>
+            <p class="card-text">Efficiently organize medical supplies with our specialized shop racks.</p>
+            <a href="medical-shop-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+      </div>
+
+      <div class="row d-flex flex-column flex-md-row mt-3">
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Mobile Shop Racks</h5>
+            <p class="card-text">Display mobiles and accessories perfectly with our mobile shop racks.</p>
+            <a href="mobile-shop-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Retail Display Store</h5>
+            <p class="card-text">Create attractive displays in your retail store with our versatile racks.</p>
+            <a href="retail-display-store.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Sport Shop Racks</h5>
+            <p class="card-text">Showcase sports equipment effectively with our specialized racks.</p>
+            <a href="sport-shop-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Stationary Shop Racks</h5>
+            <p class="card-text">Organize stationery items neatly with our custom shop racks.</p>
+            <a href="stationary-shop-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+      </div>
+
+      <div class="row d-flex flex-column flex-md-row mt-3">
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Supermarket Shop Racks</h5>
+            <p class="card-text">Enhance supermarket organization with our high-capacity shop racks.</p>
+            <a href="supermarket-shop-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
+        <div class="col-3 px-0"><div class="card" style="width: 18rem;">
+          
+          <div class="card-body">
+            <h5 class="card-title">Vegetable Racks</h5>
+            <p class="card-text">Keep vegetables fresh and organized with our dedicated vegetable racks.</p>
+            <a href="vegetable-racks.html" class="btn btn-primary">Explore More</a>
+          </div>
+        </div></div>
       </div>
     </section>
+
     <section id="services-section">
       <div class="services-heading">
         <h2>Services We Provide</h2>

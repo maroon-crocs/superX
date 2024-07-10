@@ -165,331 +165,429 @@ let floorSubCategory = ` <div class="sub-categories-floor" id="subCategories">
 </div>`;
 
 let channelWallRacks = [
+  // {
+  //   url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Channel hangril bracket-min.jpg",
+  //   key: "channel",
+  // },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Channel hangril bracket-min.jpg",
+    url:"D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Channel hangril bracket-min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Channel waterfall-min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Channel waterfall-min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Cross bar hanging -min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Cross bar hanging -min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Double slot channel shelf-min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Double slot channel shelf-min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Hangril channel system-min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Hangril channel system-min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/MS double slot channel-min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/MS double slot channel-min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Pin bar-min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Pin bar-min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Single slot channel shelf -min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Single slot channel shelf -min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/SS double slot channel -min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/SS double slot channel -min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/1st CHANNEL/Step arm-min.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/1st CHANNEL/Step arm-min.jpg",
     key: "channel",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid .jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid .jpg",
     key: "grid",
   },
 
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid basket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid basket.jpg",
     key: "grid",
   },
 
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid direct hangril.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid direct hangril.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid frame hook.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid frame hook.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid glass holder.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid glass holder.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid hanging bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid hanging bracket.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid hangril bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid hangril bracket.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid hook.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid hook.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid J5 hook.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid J5 hook.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid shelf bracket 2png.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid shelf bracket 2png.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid shelf bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid shelf bracket.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid shoe holder.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid shoe holder.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid t-leg stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid t-leg stand.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid wall hook.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid wall hook.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid waterfall.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid waterfall.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/2nd GRID/Grid with all accessories.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/2nd GRID/Grid with all accessories.jpg",
     key: "grid",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall  heavy shoe tray.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall  heavy shoe tray.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall basket .jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall basket .jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall bat holder.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall bat holder.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall boards.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall boards.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall cap holder.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall cap holder.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall direct hangril .jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall direct hangril .jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall football holder.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall football holder.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall glass holder.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall glass holder.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall grid shoe tray.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall grid shoe tray.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall hangril bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall hangril bracket.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall hook.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall hook.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall J5 hook.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall J5 hook.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall oval shoe tray.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall oval shoe tray.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall shelf bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall shelf bracket.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall waterfall .jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall waterfall .jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall white board.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall white board.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall with full accessories.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/3rd SLATWALL/Slatwall with full accessories.jpg",
     key: "slatwall",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/D pipe with light shelfs.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/D pipe with light shelfs.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Double H pillar.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Double H pillar.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Elemento SS pillar.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Elemento SS pillar.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Golden plating system.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Golden plating system.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Golden post.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Golden post.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Grid pillar with SS pipe.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Grid pillar with SS pipe.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Grid pillar.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Grid pillar.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Light option for shelf.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Light option for shelf.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/New pillar.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/New pillar.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/Single H pillar.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/Single H pillar.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/SQ post back bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/SQ post back bracket.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/SQ post front bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/SQ post front bracket.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/SQ post middle bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/SQ post middle bracket.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/SQ post SD bracket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/SQ post SD bracket.jpg",
     key: "pillar",
   },
   {
-    url: "../images/SuperX main images/WALL RACKS/4th PILLARS/SQ post shelf plus hanging.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/WALL RACKS/4th PILLARS/SQ post shelf plus hanging.jpg",
     key: "pillar",
   },
 ];
 
 let floorRacks = [
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Belt stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Belt stand.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Brand stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Brand stand.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Broom stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Broom stand.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Cloth hanging stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Cloth hanging stand.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Dump basket.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Dump basket.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Fourway stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Fourway stand.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Ring hanging stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Ring hanging stand.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/S stand for cloths.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/S stand for cloths.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Salebin.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Salebin.jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Slotted angle rack .jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Slotted angle rack .jpg",
     key: "floor-stand",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Stand for outside of shop.jpg",
-    key: "floor-stand",
-  },
-
-  {
-    url: "../images/SuperX main images/FLOOR RACKS/1st Floor Stand/Vegetable stand.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Stand for outside of shop.jpg",
     key: "floor-stand",
   },
 
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/All in one counter frame.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Vegetable stand.jpg",
+    key: "floor-stand",
+  },
+
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/All in one counter frame.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/All in one counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/All in one counter.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/Both side shelf counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Both side shelf counter.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/Cash counter top frame.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Cash counter top frame.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/Cash counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Cash counter.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/Complete Metal Counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Complete Metal Counter.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/H.I.T counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/H.I.T counter.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/Hanging counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Hanging counter.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/Medical counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Medical counter.jpg",
     key: "counter",
   },
   {
-    url: "../images/SuperX main images/FLOOR RACKS/2nd Counters/Top heavy frame cash counter.jpg",
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Top heavy frame cash counter.jpg",
+    key: "counter",
+  },
+];
+
+// Electronic Racks
+let electronicRacks = [
+  {
+    url: "D:/SuperX Shopfits/superX/images/superx category/electornic disply racs/AC display racks/AC Display Rack.png",
+    key: "AC-display",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Brand stand.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Broom stand.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Cloth hanging stand.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Dump basket.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Fourway stand.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Ring hanging stand.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/S stand for cloths.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Salebin.jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Slotted angle rack .jpg",
+    key: "floor-stand",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Stand for outside of shop.jpg",
+    key: "floor-stand",
+  },
+
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/1st Floor Stand/Vegetable stand.jpg",
+    key: "floor-stand",
+  },
+
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/All in one counter frame.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/All in one counter.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Both side shelf counter.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Cash counter top frame.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Cash counter.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Complete Metal Counter.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/H.I.T counter.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Hanging counter.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Medical counter.jpg",
+    key: "counter",
+  },
+  {
+    url: "D:/SuperX Shopfits/superX/images/SuperX main images/FLOOR RACKS/2nd Counters/Top heavy frame cash counter.jpg",
     key: "counter",
   },
 ];
@@ -593,6 +691,39 @@ let floorSubCategoryImg = floorRacks?.map(
 function showFloorRacks() {
   $(".sub-categories-wall").html(floorSubCategoryBtn);
   $("#parent").html(floorSubCategoryImg);
+  control2("floor-stand");
+  scrollToSection();
+}
+
+// Electronic Display Racks
+
+const electronicArray = [
+  // { label: "Show All", key: "all" },
+  { label: "AC Display Racks", key: "AC-display" },
+  { label: "Electronic Display Racks", key: "electronic-display" },
+  { label: "TV Display Racks", key: "TV-display" },
+];
+
+let electronicSubCategoryBtn = electronicArray?.map(
+  (el) =>
+    `<button class="btn" onclick="control2('${el?.key}')" id=${el?.key}>${el?.label}</button>`
+);
+
+let electronicSubCategoryImg = electronicRacks?.map(
+  (image, i) =>
+    `<div class="${image?.key}">
+  <a href="${image?.url}" data-lightbox="img-1">
+  <img class="category-image  ${image?.key}" src="${
+      image?.url
+    }" alt="Wall Rack"></a>
+  <p class="${image?.key}">${extractLastName(
+      capitalizeString(image?.url)
+    )}</p></div>`
+);
+
+function showElectronicRacks() {
+  $(".sub-categories-wall").html(electronicSubCategoryBtn);
+  $("#parent").html(electronicSubCategoryImg);
   control2("floor-stand");
   scrollToSection();
 }
